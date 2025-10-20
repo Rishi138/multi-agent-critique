@@ -7,7 +7,7 @@ import asyncio
 '''
 Project Analysis
 
-Evaluation method: SWE-bench bash-only (minimal agent on SWE-bench Verified dataset)
+Evaluation method: SWE-bench bash-only (minimal agent on SWE-bench Princeton Lite dataset)
 
 System overview:
 o4-mini-2025-04-16: Main agent
@@ -248,3 +248,4 @@ def new_response(question):
     print("New Response Called")
     answer = asyncio.run(response_gen(question))
     return answer
+
