@@ -1,0 +1,9 @@
+__init__.py should be inside mini-swe-agent\src\minisweagent\models
+  - Contains updated MODEL_MAPPING dictionary to map model accordingly
+  
+swebench.yaml should be inside mini-swe-agent\src\minisweagent\config\extra
+  - Contains updated and tuned prompts
+  - Contains updated config to test on custom model
+
+  *IMPORTANT NOTE: DELETE AND FULLY REPLACE DEFAULT FILES WITH NEW FILES TO ENSURE PROPER TEST REPLICATION*
+  *MAY NOT BE THE ONLY FILES THAT NEED TO BE REPLACED, OTHER FILES MAY NEED ADJUSTMENTS ACCORDINGLY, RUN SINGLE-TEST TO ENSURE NO ERRORS BEFORE FULL DATASET TEST*
